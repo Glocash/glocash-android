@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REQ_EMAIL:"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/REQ_EMAIL"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:hint="REQ_EMAIL"
+        android:text="2101653220@qq.com"
+        android:padding="2dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_background"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REQ_INVOICE:"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp" />
+
+    <EditText
+        android:id="@+id/REQ_INVOICE"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:hint="REQ_INVOICE"
+        android:padding="2dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/edit_background"/>
+
+    <EditText
+        android:id="@+id/BIL_METHOD"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="C01"
+        android:hint="BIL_METHOD"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="125dp" />
+
+    <EditText
+        android:id="@+id/CUS_EMAIL"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="test@qq.com"
+        android:hint="CUS_EMAIL"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="175dp" />
+
+    <EditText
+        android:id="@+id/BIL_PRICE"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="1.1"
+        android:hint="BIL_PRICE"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="225dp" />
+
+    <EditText
+        android:id="@+id/BIL_CURRENCY"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="USD"
+        android:hint="BIL_CURRENCY"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="275dp" />
+
+    <EditText
+        android:id="@+id/BIL_QUANTITY"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="1"
+        android:hint="BIL_QUANTITY"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="325dp" />
+
+    <EditText
+        android:id="@+id/BIL_CC3DS"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="1"
+        android:hint="BIL_CC3DS"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="375dp" />
+
+    <EditText
+        android:id="@+id/REQ_SANDBOX"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="ON"
+        android:hint="REQ_SANDBOX"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="425dp" />
+
+    <EditText
+        android:id="@+id/SECRET_KEY"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:hint="SECRET_KEY"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="475dp" />
+
+    <EditText
+        android:id="@+id/BIL_GOODSNAME"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="TEST"
+        android:hint="BIL_GOODSNAME"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="525dp" />
+
+    <EditText
+        android:id="@+id/URL_SUCCESS"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="https://www.merchant77.com/success.php"
+        android:hint="URL_SUCCESS"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="575dp" />
+
+    <EditText
+        android:id="@+id/URL_PENDING"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="https://www.merchant77.com/pending.php"
+        android:hint="URL_PENDING"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="625dp" />
+
+    <EditText
+        android:id="@+id/URL_FAILED"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="https://www.merchant77.com/failed.php"
+        android:hint="URL_FAILED"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="675dp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIL_METHOD:"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="125dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUS_EMAIL:"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="175dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIL_PRICE:"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="225dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIL_CURRENCY:"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="275dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIL_QUANTITY:"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="325dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIL_CC3DS:"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="375dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REQ_SANDBOX:"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="425dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SECRET_KEY:"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="475dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOODSNAME:"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="525dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL_SUCCESS:"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="575dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL_PENDING:"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="625dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL_FAILED:"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="675dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL_NOTIFY:"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="725dp" />
+
+    <EditText
+        android:id="@+id/URL_NOTIFY"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:text="https://www.merchant77.com/notify.php"
+        android:hint="URL_NOTIFY"
+        android:padding="2dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="725dp" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="775dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button_shape"
+        android:onClick="paytest"
+        android:text="Pay"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</ScrollView>
